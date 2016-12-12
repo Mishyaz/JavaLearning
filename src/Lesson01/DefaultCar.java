@@ -1,4 +1,4 @@
-package Main;
+package Lesson01;
 
 public class DefaultCar extends aCar {
 

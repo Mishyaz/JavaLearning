@@ -1,4 +1,4 @@
-package Main;
+package Lesson01;
 
 public interface iCar {
     int getSpeed();

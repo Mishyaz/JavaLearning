@@ -1,4 +1,4 @@
-package Main;
+package Lesson01;
 
 public class RaceCar extends aCar {
     public RaceCar() {
