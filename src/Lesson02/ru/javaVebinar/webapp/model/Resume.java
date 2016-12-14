@@ -1,4 +1,4 @@
-package Lesson02.ru.javavebinar.webapp.model;
+package Lesson02.ru.javaVebinar.webapp.model;
 
 public class Resume {
     private String fullName;
