@@ -1,7 +1,7 @@
 package ru.javaVebinar.webapp.model;
 
 public class Link {
-    public static Link ENPTY = new Link();
+    public static Link EMPTY = new Link();
 
     private final String name;
     private final String url;
