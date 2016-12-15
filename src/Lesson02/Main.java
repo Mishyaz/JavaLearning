@@ -1,6 +1,6 @@
 package Lesson02;
 
-import Lesson02.ru.javaVebinar.webapp.model.Link;
+import ru.javaVebinar.webapp.model.Link;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Main {
         System.out.println(link1.equals(link));
         System.out.println(link2.equals(link));
         System.out.println(link.getClass());
+        System.out.println(link.toString());
     }
 }
