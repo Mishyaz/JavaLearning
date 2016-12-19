@@ -16,11 +16,11 @@ public class Kitchen {
     //  psvm+tab
     public static void main(String[] args) {
         System.out.println("Main done.");
-        cookBraakfast();
+        cookBreakfast();
         cookSoup();
     }
 
-    static void cookSoup() {
+    private static void cookSoup() {
         //  sout+tab
         //  CTRL+D копирование строки
         System.out.println("Boil water.");
@@ -28,7 +28,7 @@ public class Kitchen {
         System.out.println("Done.");
     }
 
-    static void cookBraakfast() {
+    private static void cookBreakfast() {
         System.out.println("Breakfast done.");
     }
 }

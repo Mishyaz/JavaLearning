@@ -8,7 +8,6 @@ public class SeaBattle {
         for (int i = 0; i < cells.length; i++) {
             cells[i] = '.';
         }
-
         int position = 4;
         cells[position] = 'X';
 
