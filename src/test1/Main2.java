@@ -2,6 +2,7 @@ package test1;
 
 public class Main2 {
     public static void main(String[] args) {
+        //примитивные типы
         byte bt = 127;
         System.out.println(Byte.MAX_VALUE);
 
@@ -29,7 +30,7 @@ public class Main2 {
         System.out.println(Double.MAX_VALUE);
 
         float f = 43.5F;
-        float f2= 20000L;
+        float f2 = 20000L;
         System.out.println(Float.MAX_VALUE);
 
 //        void v = null;
