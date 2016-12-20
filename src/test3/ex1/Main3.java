@@ -5,7 +5,7 @@ public class Main3 {
         new Cat(3, "Tom", true);
         Cat cat1 = new Cat(3, "Tom", true);
         Cat cat2 = new Cat(2, "Мурка", false);
-
+        //TODO проверка туду листа
         cat1.about();
 
         Cat tempCat = cat1;

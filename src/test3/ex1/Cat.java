@@ -34,7 +34,7 @@ public class Cat {
 //    Cat() {
 //        System.out.printf("Вызвали пустой конструктор");
 //    }
-
+//TODO тестовая заметка
     Cat() {
     }
 
