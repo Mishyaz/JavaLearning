@@ -1,9 +1,26 @@
 package test4SeaBattle;
 
-public class Ship {
-    int position;
+import java.util.Random;
 
-    public Ship(int position) {
-        this.position = position;
+public class Ship {
+    int positionStart;
+    int positionEnd;
+    int size;
+
+    void initWithRandomPositionAndSize() {
+        Random random = new Random();
+        size = random.nextInt(3) + 1;
+        positionStart = random.nextInt(Field.SIZE - size + 1);
+        positionEnd = positionStart + size;
+    }
+
+    boolean isIntersectWithAnotherShip(Ship ship) {
+        if (positionStart > ship.positionEnd + 1) {
+            return false;
+        }
+        if (positionEnd + 1 < ship.positionStart) {
+            return false;
+        }
+        return true;
     }
 }
