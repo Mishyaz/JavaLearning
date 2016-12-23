@@ -1,4 +1,4 @@
-package test7_static;
+package test8_equals;
 
 public class Cat {
     String name;
@@ -37,5 +37,23 @@ public class Cat {
     static void staticShowCatsAmount() {
         System.out.println(catsAmount);
 //        about(); нельзя
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Cat cat = (Cat) o;
+
+        if (age != cat.age) return false;
+        return name != null ? name.equals(cat.name) : cat.name == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age;
+        return result;
     }
 }
