@@ -15,7 +15,7 @@ package test1;
 public class Kitchen {
     //  psvm+tab
     public static void main(String[] args) {
-        System.out.println("Main done.");
+        System.out.println("Cat done.");
         cookBreakfast();
         cookSoup();
     }

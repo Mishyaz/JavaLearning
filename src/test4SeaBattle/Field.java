@@ -1,7 +1,7 @@
 package test4SeaBattle;
 
 public class Field {
-    static final int SIZE = 10;
+    static final int SIZE = 20;
     public static final int SHIPS_AMOUNT = 4;
     char[] cells = new char[SIZE];
     Ship[] ships = new Ship[SHIPS_AMOUNT];
